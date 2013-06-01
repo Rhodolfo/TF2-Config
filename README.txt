@@ -32,7 +32,7 @@ KEYBINDS
 To edit keybinds to those that you use, edit the z_binds.cfg file. 
 If you read through the configs, you'll notice I avoid binding keys directly at all costs, 
 in order to keep keybinds in a single place.
-IMPORTANT: The only config files that bind keys directly are z_viewmodels, pyro and spy. 
+IMPORTANT: The only config files that bind keys directly (besides z_binds) are the pyro and spy configs. 
 Please read the comments I have placed on z_binds for more info.
 
 Keybinds most people find unusual is that I jump with mouse2 and alt fire is spacebar. 

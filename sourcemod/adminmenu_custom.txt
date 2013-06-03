@@ -1,0 +1,133 @@
+// Custom admin menu commands.
+// For more information:
+//
+// http://wiki.alliedmods.net/Custom_Admin_Menu_%28SourceMod%29
+//
+// Note: This file must be in Valve KeyValues format (no multiline comments)
+//
+
+"Commands"
+{
+	"League Configs"
+	{
+		"UGC Highlander"
+		{
+			"cmd"		"sm_execcfg @1"
+			"admin"		"sm_lowi_admin"
+			"execute"	"server"
+			"title"		"Choose a Config"
+			"1"
+			{
+				"type"		"list"
+				"1"		"ugc_HL_standard.cfg"
+				"1."		"Standard"
+				"2"		"ugc_HL_stopwatch.cfg"
+				"2."		"Stopwatch"
+				"3"		"ugc_HL_koth.cfg"
+				"3."		"King of the Hill"
+				"4"		"ugc_HL_ctf.cfg"
+				"4."		"Capture the Flag"
+				"5"		"ugc_HL_tugofwar.cfg"
+				"5."		"Tug of War"
+				"6"		"ugc_HL_dom.cfg"
+				"6."		"Domination"
+				"7"		"ugc_off.cfg"
+				"7."		"Disable Config"
+			}
+		}
+		"UGC 6v6"
+		{
+			"cmd"		"sm_execcfg @1"
+			"admin"		"sm_lowi_admin"
+			"execute"	"server"
+			"title"		"Choose a Config"
+			"1"
+			{
+				"type"		"list"
+				"1"		"ugc_6v_standard.cfg"
+				"1."		"Standard"
+				"2"		"ugc_6v_stopwatch.cfg"
+				"2."		"Stopwatch"
+				"3"		"ugc_6v_koth.cfg"
+				"3."		"King of the Hill"
+				"4"		"ugc_6v_ctf.cfg"
+				"4."		"Capture the Flag"
+				"5"		"ugc_6v_golden.cfg"
+				"5."		"Golden Cap"
+				"6"		"ugc_off.cfg"
+				"6."		"Disable Config"
+			}
+		}
+		"Ducksoup Highlander"
+		{
+			"cmd"		"sm_execcfg @1"
+			"admin"		"sm_lowi_admin"
+			"execute"	"server"
+			"title"		"Choose a Config"
+			"1"
+			{
+				"type"		"list"
+				"1"		"dsg_HL_standard.cfg"
+				"1."		"Standard"
+				"2"		"dsg_HL_stopwatch.cfg"
+				"2."		"Stopwatch"
+				"3"		"dsg_HL_koth.cfg"
+				"3."		"King of the Hill"
+				"4"		"dsg_HL_ctf.cfg"
+				"4."		"Capture the Flag"
+				"5"		"dsg_HL_tugofwar.cfg"
+				"5."		"Tug of War"
+				"6"		"dsg_HL_dom.cfg"
+				"6."		"Domination"
+				"7"		"dsg_off.cfg"
+				"7."		"Disable Config"
+			}
+		}
+		"Ducksoup 6v6"
+		{
+			"cmd"		"sm_execcfg @1"
+			"admin"		"sm_lowi_admin"
+			"execute"	"server"
+			"title"		"Choose a Config"
+			"1"
+			{
+				"type"		"list"
+				"1"		"dsg_6v_standard.cfg"
+				"1."		"Standard"
+				"2"		"dsg_6v_stopwatch.cfg"
+				"2."		"Stopwatch"
+				"3"		"dsg_6v_koth.cfg"
+				"3."		"King of the Hill"
+				"4"		"dsg_6v_ctf.cfg"
+				"4."		"Capture the Flag"
+				"5"		"dsg_6v_golden.cfg"
+				"5."		"Golden Cap"
+				"6"		"dsg_ugc_off.cfg"
+				"6."		"Disable Config"
+			}
+		}
+		"Lock/Unlock Server"
+		{
+			"cmd"		"sm_execcfg @1"
+			"admin"		"sm_lowi_admin"
+			"execute"	"server"
+			"title"		"Choose a Password"
+			"1"
+			{
+				"type"		"list"
+				"1"		"rho_lock_taquitos.cfg"
+				"1."		"taquitos"
+				"2"		"rho_lock_chimichangas.cfg"
+				"2."		"chimichangas"
+				"3"		"rho_lock_auroralights.cfg"
+				"3."		"auroralights"
+				"4"		"rho_lock_dsgftw.cfg"
+				"4."		"dsgftw"
+				"5"		"rho_lock_dsgpug.cfg"
+				"5."		"dsgpug"
+				"6"		"rho_unlock.cfg"
+				"6."		"Unlock Server"
+			}
+		}
+	}	
+}
